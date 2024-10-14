@@ -1,19 +1,110 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>My Personal Project</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Chaudhary - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
-
 <body>
+    <header>
+        <h1>Tushar Chaudhary</h1>
+        <p>Data Analyst | Developer | Innovator</p>
+    </header>
 
-  <h1>Hello World!</h1>
-  
-  <p>This is my first web page!</p>
-  
-  <button onclick="changeText()">Click me!</button>
-  
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Tushar Chaudhary, a passionate data analyst and software developer with experience in building innovative tools and data-driven solutions. I am currently pursuing a B.S.I in Informatics at The University of Texas at Austin, specializing in Human-Centered Data Science.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>The University of Texas at Austin</strong> - B.S.I in Informatics, Human-Centered Data Science Track (Expected May 2026)</p>
+            <p>Minor/Certificates: Business Administration, Computer Science</p>
+            <p>Cumulative GPA: 3.86/4.0</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div>
+                <h3>Innova Vascular – Artificial Intelligence Intern</h3>
+                <p>Irvine, CA | June 2024 – July 2024</p>
+                <ul>
+                    <li>Constructed a data analysis assistant using Google Gemini OCR, R, and Python to automate document digitization.</li>
+                    <li>Implemented OpenCV image pre-processing models, improving OCR accuracy by 70%.</li>
+                    <li>Reduced document analysis time from 15 minutes to 15 seconds by collaborating with employees to identify pain points.</li>
+                    <li>Deployed application on Google Cloud Run, now used by 5+ company departments.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>FLAIRE – AI/ML Engineer</h3>
+                <p>Austin, TX | September 2023 – January 2024</p>
+                <ul>
+                    <li>Trained AI model for accident detection software that analyzes CCTV footage to quickly alert first responders.</li>
+                    <li>Designed a convolutional neural network using PyTorch, optimizing model accuracy from 72% to 95%.</li>
+                    <li>Enhanced model efficiency from 92 FPS to over 150 FPS through intricate data pre-processing.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>The University of Michigan – Full-Stack Developer</h3>
+                <p>Ann Arbor, MI | July 2022 – August 2022</p>
+                <ul>
+                    <li>Developed a code assistant using Python and OpenAI’s GPT API to provide users with code evaluation and feedback.</li>
+                    <li>Engineered over 20 GPT-3 prompts for nuanced feedback without direct solution provision.</li>
+                    <li>Designed a responsive web interface using HTML and CSS.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Telco Churn Busters</h3>
+                <p>September 2023 – October 2023</p>
+                <ul>
+                    <li>Built a machine learning model predicting customer churn, delivering actionable insights for retention strategies.</li>
+                    <li>Developed data processing pipelines with Pandas and scikit-learn for feature engineering and normalization.</li>
+                    <li>Trained Logistic Regression and MLP models with high accuracy, utilizing LIME for explainability.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Gen-Z Slang vs. Common Slang Toxicity Bias</h3>
+                <p>September 2023 – October 2023</p>
+                <ul>
+                    <li>Analyzed toxicity detection biases in Gen-Z slang versus common English using Perspectives API.</li>
+                    <li>Conducted a bias analysis study, revealing potential biases in modern language interpretation by AI.</li>
+                    <li>Identified critical loopholes in AI-driven toxicity detection by demonstrating context-based challenges.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical Skills:</strong> Python, REST API, SQL, Pandas, NumPy, Matplotlib, Seaborn, Statistical Modeling, Machine Learning, scikit-learn, TensorFlow, OpenAI API, LLMs, Google Cloud Vision, Google Cloud Platform, AWS, Docker, LIME, SHAP, PostgreSQL, HTML, CSS</li>
+                <li><strong>Certifications:</strong> edX University of Michigan Intro to Python Completion Certificate, Trained in ITAR Policies</li>
+                <li><strong>Interests:</strong> Classic Cars, Machine Learning, Data Analytics, Video Game Production, Computer Assembly, Black Belt in Ninjitsu</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:tushar12chaudhary@utexas.edu">tushar12chaudhary@utexas.edu</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/tusharc110" target="_blank">linkedin.com/in/tusharc110</a></p>
+            <p>GitHub: <a href="https://github.com/tusharc110" target="_blank">github.com/tusharc110</a></p>
+            <p>Location: Austin, TX | Phone: (734) 355-8173</p>
+        </section>
+    </div>
+
 </body>
-
 </html>
